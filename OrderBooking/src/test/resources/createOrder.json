@@ -1,0 +1,28 @@
+{
+	"receiverAddress":{
+		"name":"",
+		"address":"",
+		"landMark":"",
+		"areaCity":"",
+		"pincode":"",
+		"phoneNumber":"",
+		"emailId":""
+	},"senderAddress":{
+		"name":"",
+		"address":"",
+		"landMark":"",
+		"areaCity":"",
+		"pincode":"",
+		"phoneNumber":"",
+		"emailId":""
+	},
+	"weight":0.10,
+	"weightUnit":"",
+	"content":"",
+	"price":0.10,
+	"status":"",
+	"payment":{
+		"price":0.1,
+		"paymentReceived":1
+	}
+}

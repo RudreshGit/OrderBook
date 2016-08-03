@@ -1,0 +1,30 @@
+$(document).ready(function(){
+	hidemainsdcsdivs();
+	$("#sdscslidediv").show();
+	$("#sdcssectiondiv").show();
+	$("#sdcshomebtn").click(function(){
+		hidemainsdcsdivs();
+		$("#sdscslidediv").show();
+		$("#sdcssectiondiv").show();
+	});
+	$("#sdcstwentyfourbtn").click(function(){
+		hidemainsdcsdivs();
+		$("#couriersectiondiv").show();
+	});
+	$("#sdcsdeliveryboybtn").click(function(){
+		hidemainsdcsdivs();
+		$("#restaurantsectiondiv").show();
+	});
+	$("#sdcsadminbtn").click(function(){
+		hidemainsdcsdivs();
+		$("#adminsectiondiv").show();
+	});
+});
+function hidemainsdcsdivs(){
+	$("#sdscslidediv").hide();
+	$("#sdcssectiondiv").hide();
+	$("#couriersectiondiv").hide();
+	$("#restaurantsectiondiv").hide();
+	$("#adminsectiondiv").hide();
+	
+}
